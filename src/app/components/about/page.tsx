@@ -8,8 +8,8 @@ const About = () => {
           <div className="space-y-6 text-lg text-gray-700">
             <p>
               Welcome to our blog! Our mission is to share insightful articles, tips, and stories on topics
-              that matter to you. Whether you're here to explore new ideas, learn something new, or stay updated
-              on current trends, we hope you'll find something that sparks your interest.
+              that matter to you. Whether you are here to explore new ideas, learn something new, or stay updated
+              on current trends, we hope you will find something that sparks your interest.
             </p>
             <p>
               Our team of writers is passionate about delivering high-quality content that is informative,

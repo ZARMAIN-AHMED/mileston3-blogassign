@@ -1,5 +1,6 @@
 'use client'
 import Image from "next/image";
+import React from "react";
 import { useState } from "react";
 
 const Blog1 = () => {
@@ -22,7 +23,7 @@ const Blog1 = () => {
         alt="First Blog Post"
         className=" object-cover rounded-lg mb-4"
       />
-      <h1 className="text-3xl font-bold">321 real-world gen AI use cases from the world's leading organizations</h1>
+      <h1 className="text-3xl font-bold">321 real-world gen AI use cases from the world s leading organizations</h1>
       <p className="mt-4 text-gray-700">
       This post originally appeared on the Transform with Google Cloud blog. It was first published April 12, 2024; last updated with new use cases December 19, 2024.
 
@@ -41,14 +42,14 @@ In our work with customers, we see their teams are increasingly focused on impro
 <br/>
 <p>Retail & Consumer Goods
 Best Buy is using Gemini to launch a generative AI-powered virtual assistant this summer that can troubleshoot product issues, reschedule order deliveries, manage Geek Squad subscriptions, and more; in-store and digital customer-service associates are also gaining gen-AI tools to better serve customers anywhere they need help. 
-BrainLogic uses Anthropic’s Claude models on Google Cloud Vertex AI to power Zapia, a personal AI assistant that caters to the Latin American market's preference for conversational commerce. Zapia supports millions of users with product discovery, local business searches, and purchase assistance, resulting in over 90% positive user feedback.
+BrainLogic uses Anthropi s Claude models on Google Cloud Vertex AI to power Zapia, a personal AI assistant that caters to the Latin American market s preference for conversational commerce. Zapia supports millions of users with product discovery, local business searches, and purchase assistance, resulting in over 90% positive user feedback.
 Cainz, a Japanese home improvement chain, is creating an autonomous, next-generation store where advanced AI technologies, including generative AI, merge the best of online and offline shopping to deliver a faster, seamless consumer experience. 
-Carrefour Taiwan's AI Sommelier, a conversational AI integrated into its app, helps customers select wines based on their preferences. Powered by Gemini models, the AI leverages a vast wine database to provide personalized recommendations, seamlessly integrating online and offline shopping.
+Carrefour Taiwan s AI Sommelier, a conversational AI integrated into its app, helps customers select wines based on their preferences. Powered by Gemini models, the AI leverages a vast wine database to provide personalized recommendations, seamlessly integrating online and offline shopping.
 Dunelm has partnered with Google Cloud to enhance its online shopping experience with a new gen AI-driven product discovery solution. This has shown significant improvements in a number of key areas, including reduced search friction, helping customers find the products they are looking for.
 Eezee found Gemini models to be the most reliable option for building its Southeast Asian B2B platform that connects small businesses with suppliers of industrial and construction materials.
 Etsy uses Vertex AI training to optimize their search recommendations and ads models, delivering better listing suggestions to buyers and helping sellers grow their businesses.
 GroupBy, an ecommerce service provider, developed an AI-first Search and Discovery Platform powered by Vertex AI Search for Retail. This solution is meticulously designed to optimize revenue, strengthen brand loyalty, and drive sales growth for B2C and B2B retailers.
-Magalu, one of Brazil’s largest retailers, has put customer service at the center of its AI strategy, including using Vertex AI to create “Lu’s Brain” to power an interactive conversational agent for Lu, Magalu's popular brand persona (the 3D bot has more than 14 million followers between TikTok and Instagram).
+Magalu, one of Brazil s largest retailers, has put customer service at the center of its AI strategy, including using Vertex AI to create “Lu s Brain” to power an interactive conversational agent for Lu, Magalu s popular brand persona (the 3D bot has more than 14 million followers between TikTok and Instagram).
 Mercado Libre has incorporated semantic search into its digital shopping platforms, using AI embeddings from the Vertex AI Agent Builder, which greatly improved product recommendations and discoverability for more than 200 million consumers across Latin America.
 Target uses Google Cloud to power AI solutions on the Target app and Target.com, including personalized Target Circle offers and Starbucks at Drive Up, their curbside pickup solution.
 Tokopedia, an Indonesian ecommerce leader, is using Vertex AI to improve data quality, increasing unique products being sold by 5%.
@@ -71,10 +72,10 @@ Anthropic has partnered with Google Cloud to offer its Claude models — includi
 Birdie.ai specializes in customer feedback analytics that provides actionable insights to companies. Using Gemini 1.5 Flash and Vertex AI, Birdie achieved a 9% improvement in model accuracy to attain a 96% accuracy rate while reducing the processed unit costs by 15%.
 Bosch SDS, which supplies technology and services globally, has integrated sustainability into its core operations. Using Google Cloud Kubernetes, BigQuery, and Firebase to manage and scale solutions, build an AI-based cognition engine, and provide real-time alerts, Bosch SDS reduced energy costs by 12%, improved indoor comfort, and better usage of renewable energy.
 Climate Engine and Robeco are using AI and geospatial technologies with their scientific expertise and investment knowledge to inform how publicly traded companies’ actions impact biodiversity. 
-Collato's Vertex AI-powered assistant allows users to instantly transform raw information, including audio recordings, text, and images, into structured, polished documents, enabling users to create documents, such as requirements documents and user research summaries, in a matter of seconds.
+Collato s Vertex AI-powered assistant allows users to instantly transform raw information, including audio recordings, text, and images, into structured, polished documents, enabling users to create documents, such as requirements documents and user research summaries, in a matter of seconds.
 Contextual is working with Google Cloud to offer enterprises fully customizable, trustworthy, privacy-aware AI grounded in internal knowledge bases.
 Essential AI, a developer of enterprise AI solutions, is using Google Cloud’s AI-optimized TPU v5p accelerator chips to train its own AI models.
-fileAI leverages proprietary AI to automate the processing of any file end-to-end directly into any system without manual intervention. Built for finance, logistics, and insurance teams, fileAI's AI workflows unlock unstructured data in 90% less time, saving users up to 80% in costs.
+fileAI leverages proprietary AI to automate the processing of any file end-to-end directly into any system without manual intervention. Built for finance, logistics, and insurance teams, fileAI s AI workflows unlock unstructured data in 90% less time, saving users up to 80% in costs.
 Hugging Face is collaborating with Google across open science, open source, cloud, and hardware to enable companies to build their own AI with the latest open models from Hugging Face and Google Cloud hardware and software. 
 Intelligencia AI is using AI models to research novel new drugs, relying on Google Cloud’s AI-optimized infrastructure to deliver scalable research that is accurate and transparent to meet the stringent needs of medicine.</p>
      

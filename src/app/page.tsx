@@ -4,11 +4,10 @@ import React from 'react'
 
 function Home() {
   return (
-    <div >
-
+    <div>
 
       {/* Hero Section */}
-      <section className="relative bg-cover bg-center bg-blue-500 h-screen" >
+      <section className="relative bg-cover bg-center bg-blue-500 h-screen">
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="relative z-10 container mx-auto px-6 flex items-center justify-center h-full">
           <div className="text-center text-white max-w-2xl mx-auto">
@@ -25,20 +24,18 @@ function Home() {
         </div>
       </section>
 
-     
-
       {/* Latest Posts Section */}
-      <section id="latest-posts" className="py-20 px-6 text-center bg-blue-50  ">
+      <section id="latest-posts" className="py-20 px-6 text-center bg-blue-50">
         <h2 className="text-3xl font-semibold mb-6">Latest Posts</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h3 className="font-semibold text-xl mb-3">The Future of Technology</h3>
-            <p className="text-gray-700">The latest AI news we announced in December. </p>
+            <p className="text-gray-700">The latest AI news we announced in December.</p>
             <Link href="/components/blog1" className="text-blue-600 hover:underline">Read More</Link>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h3 className="font-semibold text-xl mb-3">321 real-world gen AI use cases</h3>
-            <p className="text-gray-700"> 321 real-world gen AI use cases from the world's leading organizations..</p>
+            <p className="text-gray-700">321 real-world gen AI use cases from the world&apos;s leading organizations.</p>
             <Link href="/components/blog2" className="text-blue-600 hover:underline">Read More</Link>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -48,9 +45,6 @@ function Home() {
           </div>
         </div>
       </section>
-
-
-      
     </div>
   )
 }
